@@ -1,0 +1,30 @@
+[
+    {
+        "img":"../Assets/images/travel_1.jpg",
+        "alt":"Something",
+        "name": "Something_Name",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_2.jpg",
+        "alt":"Something More",
+        "name": "Something More Name",
+        "button": "View Destination"
+        
+    },
+    {
+        "img":"../Assets/images/travel_3.jpg",
+        "alt":"I am out of ideas",
+        "name": "name of that",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_4.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    }
+]
