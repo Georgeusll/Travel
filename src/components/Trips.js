@@ -35,7 +35,7 @@ function getTrips(data)
     data.allTripsJson.edges.forEach((item,index) =>{
         tripsArray.push(
             <ProductCard key = {index}> 
-                <ProductImg src = {item.node.img.childImageSharp.fluid.src}
+                <ProductImg //src = {item.node.img.childImageSharp.fluid.src}
                  alt = {item.node.alt}
                 fluid={item.node.img.childImageSharp.fluid} 
                 />
@@ -95,10 +95,11 @@ color: #000;
 const ProductWrapper = styled.div
 `
 display: grid;
-
 grid-template-columns: repeat(4, 2fr);
+
 grid-gap: 30px;
 justify-items: center;
+
 padding: 0 2rem;
 
 @media screen and (max-width: 1200px)

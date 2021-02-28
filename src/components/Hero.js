@@ -18,7 +18,7 @@ const Hero = () => {
                     <HeroP>Learn all about the city</HeroP>
                     <Button primary = "true" big = "true"
                     round = "true" to = "/trips">
-                        Travel Now</Button> 
+                        Start Demo</Button> 
                 </HeroItems>
             </HeroContent>
         </HeroContainer>

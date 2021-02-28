@@ -26,5 +26,26 @@
         "name": "anything ",
         "button": "View Destination"
 
+    },
+    {
+        "img":"../Assets/images/travel_5.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_6.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_7.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
     }
 ]

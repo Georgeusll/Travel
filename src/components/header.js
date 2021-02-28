@@ -62,7 +62,7 @@ cursor: pointer;
 `
 const Bars = styled(FaBars)`
 display : none;
-color: #fff;
+color: #000;
 
 @media screen and (max-width: 768px){
 
