@@ -17,7 +17,7 @@ const Hero = () => {
                     <HeroH1>Discover Tbilisi</HeroH1>
                     <HeroP>Learn all about the city</HeroP>
                     <Button primary = "true" big = "true"
-                    round = "true" to = "/trips">
+                    round = "true" to = "/demo">
                         Start Demo</Button> 
                 </HeroItems>
             </HeroContent>
