@@ -45,7 +45,7 @@ function getTrips(data)
                     <ProductTitle>{item.node.name}  </ProductTitle>
 
                 </TextWrap>
-                <Button to = "/trips" primary = "true" round = "true" 
+                <Button to = {item.node.alt} primary = "true" round = "true" 
                 css={
                   `
                 
