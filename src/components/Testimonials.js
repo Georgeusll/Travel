@@ -116,7 +116,7 @@ padding: 0 2 rem;
 const ColumnOne = styled.div
 `
 display: grid;
-grid-template-columns: 1fr;
+grid-template-columns: 1fr 1fr;
 
 `
 const Testimonial = styled.div
@@ -139,7 +139,7 @@ p {
 const ColumnTwo = styled.div
 `
 display: grid;
-grid-template-columns: 1fr;
+grid-template-columns: 1fr 1fr;
 margin-top: 2rem;
 grid-gap: 15px;
 
@@ -152,6 +152,8 @@ grid-gap: 15px;
 `
 const Images = styled(Img)
 `
+max-width:50%;
+height:auto;
 border-radius: 10px;
 height: 100%;
 `
