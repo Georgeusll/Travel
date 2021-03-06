@@ -5,12 +5,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Testimonials from "../components/Testimonials"
 import Stats from "../components/Stats"
+import Restaurants from "../components/Restaurants"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <Trips heading = "Adgilebi"/>  
+    <Trips heading = "Trips"/>  
+    <Restaurants heading = "Restaurants"/>
     <Testimonials />
     <Stats />
   </Layout>

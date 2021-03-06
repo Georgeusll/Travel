@@ -1,0 +1,51 @@
+[
+    {
+        "img":"../Assets/images/restaurant_1.jpg",
+        "alt":"qwerqwer",
+        "name": "reqreq",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_2.jpg",
+        "alt":"123213123e",
+        "name": "123124redsaf",
+        "button": "View Destination"
+        
+    },
+    {
+        "img":"../Assets/images/travel_3.jpg",
+        "alt":"ewfasdwefsdf",
+        "name": "131313131324214",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_4.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_5.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_6.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    },
+    {
+        "img":"../Assets/images/travel_7.jpg",
+        "alt":"nigga nigga nigga",
+        "name": "anything ",
+        "button": "View Destination"
+
+    }
+]

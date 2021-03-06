@@ -5,34 +5,32 @@ import Img from 'gatsby-image'
 import{Button} from './Button'
 import {ImLocation} from 'react-icons/im'
 
-const Trips = ({heading}) => {
+const Restaurants = ({heading}) => {
 const data = useStaticQuery(graphql`
-query TripsQuery {
-    allTripsJson {
-      edges {
-        node {
-          alt
-          button
-          name
-          img {
-            childImageSharp {
-              fluid {
-               ...GatsbyImageSharpFluid
+query RestaurantsQuery {
+    allRestaurantsJson {
+        edges {
+          node {
+            alt
+            button
+            img {
+              childImageSharp {
+                id
               }
             }
           }
         }
       }
     }
-  }
+    
 
 `)
 
 
-function getTrips(data)
+function getRestaurants(data)
 {
     const tripsArray = []
-    data.allTripsJson.edges.forEach((item,index) =>{
+    data.allRestaurantsJson.edges.forEach((item,index) =>{
         tripsArray.push(
             <ProductCard key = {index}> 
                 <ProductImg //src = {item.node.img.childImageSharp.fluid.src}
@@ -45,7 +43,7 @@ function getTrips(data)
                     <ProductTitle>{item.node.name}  </ProductTitle>
 
                 </TextWrap>
-                <Button to = "/trips/ {item.node.alt}" primary = "true" round = "true" 
+                <Button to = " {item.node.alt}" primary = "true" round = "true" 
                 css={
                   `
                 
@@ -69,13 +67,13 @@ function getTrips(data)
     return (
         <ProductsContainer>
             <ProductsHeading>{heading}</ProductsHeading>
-            <ProductWrapper>{getTrips(data)}</ProductWrapper>
+            <ProductWrapper>{getRestaurants(data)}</ProductWrapper>
 
         </ProductsContainer>
     )
 }
 
-export default Trips
+export default Restaurants
 
 const ProductsContainer = styled.div
 `

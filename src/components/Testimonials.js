@@ -104,7 +104,7 @@ font-weight: bold;
 const ContentWrapper = styled.div
 `
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 padding: 0 2 rem;
 
 @media screen and (max-width: 768px)
@@ -116,7 +116,7 @@ padding: 0 2 rem;
 const ColumnOne = styled.div
 `
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 
 `
 const Testimonial = styled.div
@@ -139,7 +139,7 @@ p {
 const ColumnTwo = styled.div
 `
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 margin-top: 2rem;
 grid-gap: 15px;
 
