@@ -99,24 +99,40 @@ padding-left: 2rem;
 margin-bottom: 4rem;
 font-size: clamp(1.5rem, 5vw, 2rem);
 font-weight: bold;
+@media screen and (max-width: 500
+    px)
+{
+    
+    font-size: 50%;
+
+}
 
 `
 const ContentWrapper = styled.div
 `
 display: grid;
-grid-template-columns: 1fr;
+grid-template-columns: 1fr 1fr;
 padding: 0 2 rem;
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 500px)
 {
-    grid-template-columns: 1fr;
+    font-size:80%;
+    width:100vw;
+    
 }
 
 `
 const ColumnOne = styled.div
 `
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
+@media screen and (max-width: 500
+    px)
+{
+    
+    grid-template-columns:  1fr 1fr;
+
+}
 
 `
 const Testimonial = styled.div
@@ -138,22 +154,34 @@ p {
 `
 const ColumnTwo = styled.div
 `
+
+height:100vh;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 margin-top: 2rem;
 grid-gap: 15px;
 
-@media screen and (max-width: 500
+
+@media screen and (max-width: 768
     px)
 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr fr;
+    min-width:100vh;
+    max-height:80%;
 
 }
 `
 const Images = styled(Img)
 `
-max-width:50%;
+
 height:auto;
 border-radius: 10px;
 height: 100%;
+@media screen and (max-width: 768
+    px)
+{
+    
+
+}
+
 `

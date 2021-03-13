@@ -79,13 +79,18 @@ export default Trips
 
 const ProductsContainer = styled.div
 `
-min-height:100vh;
+width:10px;
+min-width:100%;
+min-height:100%;
 padding: 5rem calc((100vw -1300px) /2);
 color: #fff;
 
 `
 const ProductsHeading = styled.div
 `
+width:10px;
+min-width:100%;
+max-width:100%;
 font-size: clamp(1.2rem, 5vw, 3rem);
 text-align:center;
 margin-top: 2rem;
@@ -94,7 +99,11 @@ color: #000;
 `
 const ProductWrapper = styled.div
 `
+width:10px;
+min-width:100%;
+
 display: grid;
+height:100%;
 grid-template-columns: repeat(4, 2fr);
 
 grid-gap: 30px;
@@ -113,6 +122,7 @@ padding: 0 2rem;
 `
 
 const ProductImg  = styled(Img)`
+
 height: 100%;
 max-width:100%;
 position: absolute;

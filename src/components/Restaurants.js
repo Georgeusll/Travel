@@ -15,7 +15,9 @@ query RestaurantsQuery {
             button
             img {
               childImageSharp {
-                id
+                fluid {
+                 ...GatsbyImageSharpFluid
+                }
               }
             }
           }
@@ -43,7 +45,7 @@ function getRestaurants(data)
                     <ProductTitle>{item.node.name}  </ProductTitle>
 
                 </TextWrap>
-                <Button to = " {item.node.alt}" primary = "true" round = "true" 
+                <Button to = {item.node.alt} primary = "true" round = "true" 
                 css={
                   `
                 
